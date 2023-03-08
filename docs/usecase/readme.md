@@ -9,13 +9,7 @@ flowchart LR
     User --- EscolherJogo
     User --- EntrarJogo
     User --- ApostarNoJogo
-    
-```
 
-```Mermaid
-flowchart LR
-  Gerente --- ApostarNoJogo
-  Gerente --- Login
-  Gerente --- Registrar
-      
-``` 
+    Gerente ==> User
+    Gerente ---- AdicionarJogo
+```
