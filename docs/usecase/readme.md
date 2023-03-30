@@ -10,6 +10,6 @@ flowchart LR
     User --- EntrarJogo
     User --- ApostarNoJogo
 
-    Gerente ==> User
+    Gerente --> User
     Gerente ---- AdicionarJogo
 ```
